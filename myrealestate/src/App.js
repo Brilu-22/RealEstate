@@ -1,10 +1,10 @@
 import React from "react";
 import back from "../src/components/backgroundImg/r-architecture-2gDwlIim3Uw-unsplash.jpg";
 import img from "../src/components/backgroundImg/r-architecture-Cn87TISYij8-unsplash.jpg";
+import logo from "../src/components/logo/RealEst Logo.svg";
 import img1 from "../src/components/homes/image1.jpg";
 import img2 from "../src/components/homes/image2.jpg";
 import img3 from "../src/components/homes/image3.jpg";
-
 import img5 from "../src/components/homes/image5.jpg";
 import img6 from "../src/components/homes/image6.jpg";
 import img7 from "../src/components/homes/image7.jpg";
@@ -32,7 +32,10 @@ function App() {
           </div>
         </div>
         <div className="box2">
-          <h2>This</h2>
+          <div className="logo">
+            <img src={logo} alt="logo" />
+          </div>
+
           <div className="button">
             <h3>Find more</h3>
           </div>
@@ -65,6 +68,9 @@ function App() {
             <img src={img} alt="bottom" />
           </div>
         </div>
+      </div>
+      <div className="header">
+        <h1>Choose Your Dream Home</h1>
       </div>
       <div className="card-container">
         <div className="card">
