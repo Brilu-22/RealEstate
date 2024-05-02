@@ -122,6 +122,40 @@ function App() {
           <button>Click me!</button>
         </div>
       </div>
+      <div className="title">
+        <h1>About Us</h1>
+      </div>
+      <div className="col-6">
+        <img src={img} alt="img" />
+
+        <div className="col-62">
+          <p>
+            An ideal location for anyone looking to make the most out of living
+            in some of the most vibrant areas of London, whilst maintaining
+            fantastic access to the city centre and, a fabulous living space.
+          </p>
+          <button>More!</button>
+        </div>
+      </div>
+      <footer className="footer">
+        <div className="footer-content">
+          <p>
+            © 2023 Real Estate Solutions. All rights reserved.
+            <img src={logo} alt=" logo" />
+          </p>
+          <ul className="footer-links">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 }
